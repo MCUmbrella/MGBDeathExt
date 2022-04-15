@@ -1,0 +1,5 @@
+name: MGBDeathExt
+version: '${project.version}'
+main: vip.floatationdevice.mgbdeath.MGBDeathExt
+api-version: 1.13
+depend: [ MGBridge ]
