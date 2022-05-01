@@ -27,6 +27,6 @@ public final class MGBDeathExt extends JavaPlugin implements Listener
     @EventHandler
     public void onPlayerDeath(PlayerDeathEvent event)
     {
-        instance.sendGuildedEmbed(new Embed().setTitle(event.getDeathMessage()).setColor(0xffff00), null, null, null);
+        instance.sendGuildedEmbed(new Embed().setTitle(":skull_and_crossbones: " + event.getDeathMessage()).setColor(0xffff00), null, null, null);
     }
 }
